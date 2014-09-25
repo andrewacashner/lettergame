@@ -14,7 +14,9 @@ PRESSING ESCAPE EXITS.
 Software
 --------
 
-This software is written in Ruby, using the GOSU 2-D gaming library. 
+Please see the INSTALL file for installation instructions.
+
+This software is written in Ruby 2.1.2, using the GOSU 2-D gaming library. 
 The Letter Game, like Gosu, is licensed under the MIT license: 
 please see the LICENSE file.
 
