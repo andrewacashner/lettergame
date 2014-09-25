@@ -1,0 +1,58 @@
+THE LETTER GAME
+Toddler Typing
+
+Andrew A. Cashner (andrewacashner at gmail), 2014-06/09
+
+This is a simple game designed for two- to three-year-olds.
+The child can press any of the number or letter keys on the 
+keyboard and see the images of the letter or number in 
+bright colors on the screen and hear the sound of the letter.
+We mask off the other keys so that they cannot do anything harmful
+or confusing.
+PRESSING ESCAPE EXITS.
+
+Software
+--------
+
+This software is written in Ruby, using the GOSU 2-D gaming library. 
+The Letter Game, like Gosu, is licensed under the MIT license: 
+please see the LICENSE file.
+
+Font 
+----
+
+The font used is Latin Modern Sans, which is freely available 
+to distribute under a GUST Font License and the LaTeX Project 
+Public License. The font is distributed with the TeXLive distribution
+with the original filename lmsans10-bold.otf.
+It is based on the Computer Modern fonts developed by Donald Knuth
+for the TeX system, using METAFONT.
+  Any other font could be used by putting it in the /font folder
+and changing the definition of the FONT constant.
+
+Sounds
+------
+
+The letter sounds were recorded by Andrew and Ann Cashner and our
+son Ben, age 3.
+  Users are encouraged to record their own sounds. You can substitute
+your own voices for those in the program simply by replacing the files
+in the audio/ directory, without needing to change any code.
+  Save the sample for each character sound as an Ogg Vorbis file
+with the character as the filename (as in 3.ogg or G.ogg).
+Put a complete series of these in a folder with a numeric name,
+under the "audio" directory (as in audio/1/3.ogg).
+  The program chooses a random number up to the max number of 
+recorded voices. So if you add more voices, increase the  
+value of @voice_max in the #initialize method accordingly.
+ 
+KNOWN ISSUES
+============
+
+Note that because of the way Gosu handles the 
+keyboard, the mapping may not work out the same on every
+keyboard. Characters other than letters or numbers should
+produce a giggling sound, but may function like Escape and 
+end the program.
+
+

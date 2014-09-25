@@ -1,0 +1,31 @@
+Letter Game Installation
+=======================
+
+Releases
+--------
+v0.1 -- 2014-09-25
+
+How to Install
+--------------
+
+There is a prepackage application bundle for Mac OSX.
+Soon we hope to have prepackaged application bundles for Linux and Windows.
+
+ - On a Unix-like system
+    + Install Ruby if not already provided
+    + Install Gosu
+        - Follow Gosu's own installation instructions
+	- You have to install several package dependencies first, then install the Gosu gem
+    + Download letter.tar.gz from the releases/v0.1/linux/ directory; 
+      then unpack it: `gunzip letters.tar.gz`; `tar -xf letters.tar`
+    + OR Clone this repository 
+    + Inside the game's directory, run `ruby letters.rb`
+    + Alternately, make it executable, `chmod +x letters.rb` and then `./letters.rb` (or put it in the system path)
+
+ - On Mac OSX
+    + Download Letters.app.zip from the releases/v0.1/OSX/ directory
+    + Unzip the archive and copy Letters.app into your Applications directory
+ 
+ - On Windows (not yet available)
+    + If you have a Ruby setup, you should be able to install Gosu and clone this repository, like in the instructions for Linux.
+    + Soon we hope to have a Windows application bundle.
