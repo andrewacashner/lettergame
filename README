@@ -57,4 +57,8 @@ keyboard. Characters other than letters or numbers should
 produce a giggling sound, but may function like Escape and 
 end the program.
 
-
+LICENSE
+========
+This software is in the public domain.
+You may do what you like with it.
+I provide no warranty of any kind.
